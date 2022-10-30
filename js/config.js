@@ -153,7 +153,7 @@ export default {
 	// - null:   Media will only autoplay if data-autoplay is present
 	// - true:   All media will autoplay, regardless of individual setting
 	// - false:  No media will autoplay, regardless of individual setting
-	autoPlayMedia: trueZ,
+	autoPlayMedia: null,
 
 	// Global override for preloading lazy-loaded iframes
 	// - null:   Iframes with data-src AND data-preload will be loaded when within
